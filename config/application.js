@@ -1,7 +1,10 @@
+const core = require('express')
 
-const router = require('../config/routes')
+const app = core()
 
+app.use(core.json())
 
-
-
-module.exports = app
+module.exports = {
+    app,
+    core
+}

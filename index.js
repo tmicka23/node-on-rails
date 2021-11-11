@@ -1,7 +1,7 @@
 const start = require('./start/app.start')
-const application = require('./config/application')
+const { app } = require('./config/application')
+const router = require('./config/routes')
 
 const port = 3000
 
-
-start(application, port)
+start(app, port, router)
