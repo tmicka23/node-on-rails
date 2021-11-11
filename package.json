@@ -9,15 +9,11 @@
   "dependencies": {
     "joi": "^17.4.2",
     "knex": "^0.95.14",
-    "koa": "^2.13.4",
-    "koa-bodyparser": "^4.3.0",
-    "koa-router": "^10.1.1",
     "mysql": "^2.18.1",
     "objection": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
-    "eslint-config-koa": "^2.0.2",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",

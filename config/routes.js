@@ -1,7 +1,7 @@
-const Router = require('koa-router')
+
 const PostsController = require('../controllers/postsController')
 
-const router = new Router()
+
 
 // BaseRoutes
 router.get('/', ctx => ctx.res.end('Yay you\'re on rails')),

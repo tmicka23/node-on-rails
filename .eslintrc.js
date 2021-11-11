@@ -4,7 +4,7 @@ module.exports = {
 		commonjs: true,
 		es2021: true
 	},
-	extends: ['eslint:recommended', 'koa'],
+	extends: ['eslint:recommended'],
 	parserOptions: {
 		ecmaVersion: 13
 	},
