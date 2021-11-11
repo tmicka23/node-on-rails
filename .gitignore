@@ -1,0 +1,15 @@
+# packages
+node_modules
+yarn.lock
+package-lock.json
+
+# IDEs
+.vscode
+.atom
+.sublime
+.idea
+
+# Environment variables
+.env
+.env.production
+.env.development.local

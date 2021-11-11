@@ -1,0 +1,24 @@
+{
+  "name": "node-on-rails",
+  "version": "0.0.1-alpha",
+  "description": "A NodeJs boilerplate for rails developers",
+  "main": "index.js",
+  "repository": "https://github.com/tmicka23/node-on-rails",
+  "author": "@tmicka23",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^17.4.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-koa": "^2.0.2",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
