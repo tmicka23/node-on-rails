@@ -1,6 +1,8 @@
+const { bold } = require('kleur')
+
 const start = (app, port, router) => {
-    console.log('Yay you\'re on rails !')
-    console.log(`The server run at port: ${port}`)
+    console.log(bold().cyan('=> Booting express server ...'))
+    console.log(bold().white('The server run at port:'), bold().green(port))
 
     app.use('/', router)
 

@@ -6,13 +6,18 @@
   "repository": "https://github.com/tmicka23/node-on-rails",
   "author": "@tmicka23",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "joi": "^17.4.2",
+    "kleur": "^4.1.4",
     "knex": "^0.95.14",
     "mysql": "^2.18.1",
-    "objection": "^3.0.0"
+    "objection": "^3.0.0",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
@@ -20,6 +25,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint-plugin-standard": "^5.0.0",
+    "nodemon": "^2.0.15"
   }
 }
